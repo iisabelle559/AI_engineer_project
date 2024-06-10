@@ -3,7 +3,7 @@
 ## Intro
 - 이 프로젝트는 이미지가 입력되면 수중 생물체를 인식하는 객체 탐지 서비스입니다.
 - 학습, 평가, 추론, 배포, 모니터링 과정을 모두 자동화하였습니다.
-- 본 깃허브 리포지토리에서는 학습 데이터셋을 포함하지 않습니다. 코드를 실행해 보려면 아래의 구글 드라이브 링크에서 학습 데이터셋이 포함된 zip 파일을 다운로드 받아주세요: [https://drive.google.com/file/d/11WWbiBuq4cXaQhikokMgGXtlUrsm5oQz/view?usp=drive_link](https://drive.google.com/drive/folders/1QNhx-QC5Vh09dJq5AojX9cvNHNZ1GsBB?usp=sharing)
+- 본 깃허브 리포지토리에서는 학습 데이터셋을 포함하지 않습니다. 코드를 실행해 보려면 아래의 구글 드라이브 링크에서 학습 데이터셋이 포함된 zip 파일을 다운로드 받아주세요: [[https://drive.google.com/file/d/11WWbiBuq4cXaQhikokMgGXtlUrsm5oQz/view?usp=drive_link](https://drive.google.com/drive/folders/1QNhx-QC5Vh09dJq5AojX9cvNHNZ1GsBB?usp=sharing)](https://drive.google.com/file/d/11WWbiBuq4cXaQhikokMgGXtlUrsm5oQz/view?usp=sharing)
 
 ## Model
 - yolov8n(nano model)
