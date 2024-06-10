@@ -28,12 +28,12 @@ templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # 테스트 데이터셋
-test_data_dir = 'C:/Users/user/OneDrive/바탕 화면/Object_Detection/Aquarium Combined.v2-raw-1024.yolov8/test'  # 실제 테스트 데이터 경로 설정
+test_data_dir = 'C:/Users/user/OneDrive/바탕 화면/Object_Detection/Aquarium Combined.v2-raw-1024.yolov8/test'  
 test_images_dir = os.path.join(test_data_dir, 'images')
 test_labels_dir = os.path.join(test_data_dir, 'labels')
 
-test_images = [os.path.join(test_images_dir, img) for img in os.listdir(test_images_dir) if img.endswith('.jpg') or img.endswith('.png')]  # 테스트 이미지 경로 리스트
-test_labels = [os.path.join(test_labels_dir, lbl) for lbl in os.listdir(test_labels_dir) if lbl.endswith('.txt')]  # 테스트 라벨 경로 리스트
+test_images = [os.path.join(test_images_dir, img) for img in os.listdir(test_images_dir) if img.endswith('.jpg') or img.endswith('.png')]  # 이미지
+test_labels = [os.path.join(test_labels_dir, lbl) for lbl in os.listdir(test_labels_dir) if lbl.endswith('.txt')]  # 라벨
 
 # 이미지 파일과 라벨 파일이 일치하는지 확인
 def get_matching_labels(image_files, label_files):
