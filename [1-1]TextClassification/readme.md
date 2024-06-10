@@ -102,7 +102,4 @@ python inference.py
 ![alt text](image.png)
 
 ## Demo Video
-<video width="640" height="480" controls>
-  <source src="./Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo Video](https://img.youtube.com/vi/3Wufk3Gj1nc/0.jpg)](https://www.youtube.com/watch?v=3Wufk3Gj1nc)
