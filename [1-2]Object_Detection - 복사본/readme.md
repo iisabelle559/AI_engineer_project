@@ -19,27 +19,8 @@
   - This dataset consists of 638 images collected by Roboflow from two aquariums in the United States: The Henry Doorly Zoo in Omaha (October 16, 2020) and the National Aquarium in Baltimore (November 14, 2020). The images were labeled for object detection by the Roboflow team (with some help from SageMaker Ground Truth). Images and annotations are released under a Creative Commons By-Attribution license. 
 
 - 라벨
-
-| 라벨            | 설명               |
-| --------------- | ------------------ |
-| fish       | 물고기        |
-| jellyfish        | 해파리    |
-| stingray      | 가오리    |
-| shark        | 상어      |
-| starfish    | 불가사리|
-| seahorse          | 해마           |
-| crab    | 게 |
-| lobster   | 바닷가재          |
-| octopus        | 문어       |
-| sea turtle    | 바다거북           |
-| coral             | 산호          |
-| anemone    | 말미잘|
-| urchin          | 성게           |
-| squid    | 오징어 |
-| dolphin   | 돌고래           |
-| whale        | 고래        |
-| seal    | 물개          |
-| penguin             | 펭귄        |
+  - nc: 7
+  - names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
 
 
 ## 실행방법
@@ -65,7 +46,4 @@ python inference.py
 ![alt text](image.png)
 
 ## Demo Video
-<video width="640" height="480" controls>
-  <source src="./Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![데모 영상](https://img.youtube.com/vi/ZBri6iUfVY8/0.jpg)](https://youtu.be/ZBri6iUfVY8)
